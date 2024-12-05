@@ -1,0 +1,4 @@
+rootProject.name = 'mcengine-mail'
+
+include 'mcengine-mail-api'
+include 'spigotmc'

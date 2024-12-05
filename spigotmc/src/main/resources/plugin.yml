@@ -1,0 +1,6 @@
+name: MCEngineMail
+version: ${version}
+main: io.github.mcengine.MCEngineMail
+author: MCEngine
+description: MCEngine Mail
+api-version: 1.18
