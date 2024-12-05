@@ -7,6 +7,43 @@ This is a basic plugin for Bukkit/SpigotMC that provides email sending capabilit
 - Lightweight and easy to integrate into existing Minecraft plugins.
 - Demonstrates proper usage of the `onEnable` and `onDisable` lifecycle methods in a Bukkit/SpigotMC plugin.
 
+## Importing `MCEngineMailApi` Dependency
+
+To use the `MCEngineMailApi` in your project, include it as a dependency in your build tool configuration. Below are the instructions for Gradle (Groovy and Kotlin DSL) and Maven.
+
+### Gradle (Groovy DSL)
+```groovy
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.github.mcengine:mcengine-mail-api:1.0.0'
+}
+```
+
+### Gradle (Kotlin DSL)
+```kotlin
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("io.github.mcengine:mcengine-mail-api:1.0.0")
+}
+```
+
+### Maven
+```xml
+<dependencies>
+  <dependency>
+    <groupId>io.github.mcengine</groupId>
+    <artifactId>mcengine-mail-api</artifactId>
+    <version>1.0.0</version>
+  </dependency>
+</dependencies>
+```
+
 ## Usage
 
 ### Setup
