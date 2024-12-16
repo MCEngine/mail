@@ -68,7 +68,7 @@ public class Plugin extends JavaPlugin {
     @Override
     public void onEnable() {
         // Configuration for email service
-        String mailType = "gmail";
+        String mailType = "gmail"; // "gmail", "hotmail"
         String username = "your-email@gmail.com";
         String password = "your-password-or-app-password";
 
